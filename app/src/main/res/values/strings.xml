@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Java Template</string>
+
+    <!-- Layout -->
+    <string name="edit_text_hint">Enter your text</string>
+    <string name="button_text">Send text</string>
+
+    <!-- Toasts -->
+    <string name="toast_et_empty">Enter text before sending it</string>
+    <string name="toast_sent">Text is sent</string>
+    <string name="toast_fail">Something went wrong</string>
+    <string name="toast_success">Text length is %d</string>
+</resources>

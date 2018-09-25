@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<be-app name="Template" apk="com.bebound.template" version="1" protocol="1">
+    <server_operations>
+        <operation name="send_text">
+            <request>
+                <param name="content" type="string" min_len="1" max_len="16"/>
+            </request>
+            <response>
+                <param name="length" type="int" min="1" max="16"/>
+            </response>
+        </operation>
+    </server_operations>
+</be-app>
